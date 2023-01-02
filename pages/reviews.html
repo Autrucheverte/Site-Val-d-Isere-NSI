@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="icon" href="../images/favicon.ico">
+    <title>Projet NSI</title>
+</head>
+<body>
+    <div id="theme-color">
+        <i class="fa fa-sun-o" aria-hidden="true"></i>
+    </div>
+    <canvas id="cnv"></canvas>
+    <div id="progressbar"></div>
+    <section>
+        <div id="filter"></div>
+        <img src="../images/header bg.jpg" id="bg">
+        <img src="../images/header moon and sun.png" id="moon">
+        <img src="../images/header mountains.png" id="mountain">
+        <img src="../images/header road.png" id="road">
+        <h2 id="text">Val d'Isère</h2>
+    </section>
+    <nav>
+        <div class="link-container"><a href="../index.html">Le domaine</a></div>
+        <div class="link-container"><a href="">Les reviews</a></div>
+        <div class="link-container"><a href="./activités.html">Activités</a></div>
+        <div class="link-container"><a href="./quizz.html">Quizz</a></div>
+    </nav>
+    <article>
+        <h2>Les posts intagrams avec le #val_d'isere</h2>
+        <div class="insta-post">
+            <div class="insta-head">
+                <div class="pp-insta">
+                    <img src="../images/first_post_pp.jpg" class="pp-insta">
+                </div>
+                <p class="user-name">autrucheverte</p>
+                <span>&#8230;</span>
+            </div>
+            <img src="../images/first_post.jpeg" class="insta-image">
+            <div class="insta-bottom">
+                <img src="../images/insta-bottom-notliked.jpg" class="insta-buttons" onclick="liked(this)">
+                <p class="nbr-likes">127 J'aime</p>
+                <p class="insta-description">autrucheverte <light>Superbe descente aux flambeaux pour terminer ce séjour</light> </light><hashtag>#val_d'isere</hashtag></p>
+                <p class="insta-date">IL Y A 3 JOURS</p>
+            </div>
+        </div>
+    </article>
+
+    <div class="cookies">
+        <img src="../images/cookies.png" alt="cookies">
+        <p>Nous utilisons les cookies pour collecter et analyser des informations sur les performances et l'utilisation du site, pour fournir des fonctionnalités de médias sociaux et pour améliorer et personnaliser le contenu et les publicités. <a href="">En savoir plus</a></p>
+        <button id="allow">Accepter</button>
+        <button id="reject">Refuser</button>
+    </div>
+
+    <script src="../js/script.js"></script>
+    <script src="../js/reviews.js"></script>
+</body>
+</html>
